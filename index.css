@@ -1,0 +1,17 @@
+/* @import url("https://fonts.googleapis.com/css?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Zen+Dots&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-linear-gradient {
+    @apply bg-gradient-to-r from-[#eff1f3] via-[#e2e2e2] to-[#eff1f3];
+  }
+}
+@layer utilities {
+  .icon--i {
+    @apply text-white rounded-[2.6rem] flex text-[1.4rem] w-[2.6rem] h-[2.6rem] leading-[3rem] text-center select-none mt-0 mr-[5px] mb-2.5;
+  }
+}
