@@ -50,16 +50,18 @@ const Body = () => {
         
       }/>
       <button className="search-btn" 
-      onClick={()=>{
-        //need to filter the data
 
-       const data=filterData(searchText,restaurants);
-       setRestaurants(info);
-      }}>search-{searchText.toUpperCase()}</button>
+onClick={() => {
+  // need to filter the data
+  const info = filterData(searchText, restaurants);
+  setRestaurants(info);
+}}
+
+     >search-{searchText.toUpperCase()}</button>
       </div>
 
       <div className="restaurant-list">
-        {restaurants.map((restaurant) => {
+        {restaurants?.map((restaurant) => {
           return (
             <RestaurantCard key={restaurant.info.id} {...restaurant.info} />
           );

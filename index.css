@@ -81,3 +81,12 @@
   padding: 10px 20px 10px 20px;
   border-radius: 0px;
 }
+
+.footer-css{
+ display: flex;
+ justify-content: center;
+ padding-top: 1%;
+ padding-bottom: 2%;
+	
+
+}

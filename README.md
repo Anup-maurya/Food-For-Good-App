@@ -68,3 +68,7 @@ import {Component} from "path";
 
 
 ### PROJECT IS IN PROGRESS ...
+
+Updated Project Image
+ 
+![FoodForGood](./image/updatedProjectImage.png)
