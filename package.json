@@ -5,7 +5,6 @@
   "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
-    "test": "jest",
     "build": "parcel build index.html"
   },
   "keywords": [
