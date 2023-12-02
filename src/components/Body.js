@@ -61,7 +61,7 @@ onClick={() => {
       </div>
 
       <div className="restaurant-list">
-        {restaurants?.map((restaurant) => {
+        {restaurants.map((restaurant) => {
           return (
             <RestaurantCard key={restaurant.info.id} {...restaurant.info} />
           );
