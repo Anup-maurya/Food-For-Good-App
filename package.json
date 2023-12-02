@@ -2,8 +2,10 @@
   "name": "foodforgood",
   "version": "1.0.0",
   "description": "This is a react project",
-  "main": "App.js",
-  "scripts": {
+   "targets": {
+    "main": false
+  }, 
+ "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
