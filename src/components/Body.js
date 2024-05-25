@@ -34,7 +34,7 @@ const Body = () => {
         console.log(jsondata);
         //setRestaurants(jsondata?.data?.cards[2]?.data?.data?.cards);
 
-        setRestaurants(jsondata?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setRestaurants(jsondata?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
      }
     return ( 
